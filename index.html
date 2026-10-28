@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <meta name="google-site-verification" content="pTWt_-3hmZGHHWH-lLxVOP_MU83o6XzuEzOt4QMQz9M" />
+    <title>3D Minimalistik Instagram Muzeyi</title>
+	 <!-- Saytning qidiruvdagi tavsifi --> <meta name="description" content="ikmt 1-guruh uchun ochilgan sayt bu saytda 1-guruh muzeyi mavjud!">  <!-- Favikon (Sayt logosi) --> <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+
+    <div id="canvas-container"></div>
+    <div id="crosshair"></div>
+
+    <!-- Tepadagi sarlavha -->
+    <div id="museum-title">1-guruh profil muzeyi</div>
+
+    <!-- Xush kelibsiz banneri -->
+    <div id="welcome-banner">
+        <span>🎉 1-guruh profil muzeyiga xush kelibsiz!</span>
+    </div>
+
+    <!-- Profilni ko'rish tugmasi -->
+    <div id="action-prompt" class="hidden">
+        <button id="view-profile-btn">Profilni ko'rish</button>
+        <div id="profile-nickname-label">@nickname</div>
+    </div>
+
+    <!-- Virtual Joystik -->
+    <div id="joysticks-container">
+        <div id="joystick-base">
+            <div id="joystick-thumb"></div>
+        </div>
+    </div>
+
+    <div id="instructions">
+        <p>📱 Joystik orqali yuring | Ekranni surib kamerani aylantiring</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
